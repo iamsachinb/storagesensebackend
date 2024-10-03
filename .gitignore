@@ -1,0 +1,33 @@
+. filter=lfs diff=lfs merge=lfs -text
+# Ignore the Python environment
+# Ignore the Python environment
+env/
+venv/
+.venv/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+*.env
+*.venv
+*.envrc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore log files
+*.log
+
+# Ignore package distribution files
+*.egg-info/
+dist/
+build/
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
