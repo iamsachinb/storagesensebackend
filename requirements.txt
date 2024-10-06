@@ -16,6 +16,7 @@ fsspec==2024.2.0
 genapi==0.0.8
 google_api_python_client==2.71.0
 grpc_reflection==1.0.0
+grpcio_reflection==1.66.2
 grpc_tools==1.0.0
 h2==4.1.0
 h5==0.9.3
